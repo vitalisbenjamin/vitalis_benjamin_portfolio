@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	font-size: 16px;
+}
+
+.nav{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: darkgrey;
+	overflow: hidden;
+}
+
+.nav li{
+	float: left;
+}
+
+li a{
+display: block;
+color: white;
+text-align: center;
+padding: 15px 20px 20px;
+text-decoration: none;
+font-size: 20px;
+}
+.nev{
+	color: white;
+	display: block;
+	text-align: center;
+	padding: 15px 20px;
+	text-decoration: none;
+	background-color: black;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	margin-right: 10px;
+}
+
+li a:hover{
+	background-color: lightgrey;
+	transition: all 0.3s ease 0s;
+	color: black;
+}
+.active{
+	background-color: lightgrey;
+	color: black;
+}
+
+main{
+	margin: 20px;
+	font-size: 17px;
+	overflow: hidden;
+
+}
+.kártya{
+	padding: 16px;
+	margin:1rem;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: lightgrey;
+
+}
+.kártya img{
+	display: block;
+	margin: 0 auto;
+	max-height: 30%;
+}

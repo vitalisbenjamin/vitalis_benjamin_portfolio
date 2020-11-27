@@ -1,0 +1,116 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+.nav{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: darkgrey;
+	overflow: hidden;
+}
+
+.nav li{
+	float: left;
+}
+
+li a{
+display: block;
+color: white;
+text-align: center;
+padding: 15px 20px 20px;
+text-decoration: none;
+font-size: 20px;
+}
+.nev{
+	color: white;
+	display: block;
+	text-align: center;
+	padding: 15px 20px;
+	text-decoration: none;
+	background-color: black;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	margin-right: 10px;
+}
+
+li a:hover{
+	background-color: lightgrey;
+	transition: all 0.3s ease 0s;
+	color: black;
+}
+.active{
+	background-color: lightgrey;
+	color: black;
+}
+
+main{
+	margin: 20px;
+	font-size: 17px;
+	overflow: hidden;
+}
+
+.korábbi, .jelenlegi{
+	background-color: lightgrey;
+	border-style: solid;
+	border-width: 2px;
+	display: flex;
+	flex-wrap: wrap;
+	padding: auto;
+}
+h3{
+	margin: 10px;
+}
+.szöveg{
+	margin:0 10px;
+	width: 40%;
+}
+
+div{
+	margin: 20px;
+}
+p{
+	margin: 30px;
+}
+.korábbi ul {
+	width: 40%;
+}
+.korábbi ul li{
+	margin: 20px;
+}
+.jelenlegi ul{
+	list-style: none;
+}
+img{
+	margin: 20px;
+	min-width: 30%;
+	height: auto;
+	align-self: center;
+
+}
+
+
+ .nyelvvizsga, .egyéb{
+ 	background-color: lightgrey;
+	border-style: solid;
+	border-width: 2px;
+	display: inline-table;
+	height: 130px;
+	min-width: 45%;
+	width: 46%;
+	padding: auto;
+	padding-right: auto;
+}
+.nyelvvizsga ul, .egyéb ul{
+	margin: auto;
+}
+
+@media screen and(max-width: 600px){
+	.nyelvvizsga, .egyéb{
+		width: 600px;
+		margin: 20px;
+	}
+}
